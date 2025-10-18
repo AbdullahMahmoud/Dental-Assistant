@@ -2,6 +2,8 @@
 
 A professional Streamlit application that uses AI to analyze dental images and provide preliminary oral health assessments.
 
+🌐 **Live Demo**: [https://dental-assistant.streamlit.app/](https://dental-assistant.streamlit.app/)
+
 ## Features
 
 - **Image Upload & Analysis**: Upload dental images for AI-powered analysis
