@@ -157,7 +157,7 @@ Please provide your analysis in a clear, professional, and easy-to-understand fo
 
         # Make API call
         completion = client.chat.completions.create(
-            model="qwen/qwen2.5-vl-72b-instruct:free",
+            model="qwen/qwen2.5-vl-32b-instruct:free",
             messages=[
                 {
                     "role": "user",
@@ -262,4 +262,5 @@ def main():
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
+
     main()
