@@ -157,7 +157,7 @@ Please provide your analysis in a clear, professional, and easy-to-understand fo
 
         # Make API call
         completion = client.chat.completions.create(
-            model="qwen/qwen2.5-vl-32b-instruct:free",
+            model="openrouter/andromeda-alpha",
             messages=[
                 {
                     "role": "user",
@@ -264,3 +264,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
